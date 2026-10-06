@@ -1,0 +1,17 @@
+[project]
+name = "ola-ai-mobility-intelligence"
+version = "1.0.0"
+description = "Ola-inspired mobility analytics, AI SQL, business intelligence and predictive analytics portfolio project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.40.0",
+    "langchain>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "openpyxl>=3.1.0",
+    "plotly>=5.24.0",
+    "scikit-learn>=1.5.0",
+]
